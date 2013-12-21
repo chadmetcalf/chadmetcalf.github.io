@@ -1,0 +1,11 @@
+safe:        false
+port:        4000
+baseurl:     /
+url:         http://chadmetcalf.github.io
+source:      .
+destination: ./public
+plugins:     ./_plugins
+future:      true
+markdown:    maruku
+permalink:   date
+exclude:     ["Gemfile", "Gemfile.lock", "CNAME", "Rakefile", "README.md", "public"]

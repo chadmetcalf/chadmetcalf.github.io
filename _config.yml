@@ -6,6 +6,7 @@ source:      .
 destination: ./public
 plugins:     ./_plugins
 future:      true
-markdown:    maruku
+markdown:    kramdown
 permalink:   date
-exclude:     ["Gemfile", "Gemfile.lock", "CNAME", "Rakefile", "README.md", "public"]
+exclude:     ["Gemfile", "Gemfile.lock", "CNAME", "Rakefile", "README.md",
+              "public", "Guardfile", "Guardfile", ".DS_Store"]

@@ -561,6 +561,12 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			float: left;
+		}
+
+		ul.icons.right {
+			float: right;
+			padding-right: 30px;
 		}
 
 			ul.icons li {
@@ -568,17 +574,17 @@
 				padding: 0 1em 0 0;
 			}
 
-				ul.icons li:last-child {
-					padding-right: 0;
-				}
+			ul.icons li:last-child {
+				padding-right: 0;
+			}
 
-				ul.icons li .icon:before {
-					font-size: 3em;
-				}
+			ul.icons li .icon:before {
+				font-size: 3em;
+			}
 
-				ul.icons li a {
-					color: inherit;
-				}
+			ul.icons li a {
+				color: inherit;
+			}
 
 /* Form */
 
@@ -626,17 +632,17 @@
 				color: #1cb495;
 			}
 
-				form .message.success:before {
-					content: '\f00c';
-				}
+			form .message.success:before {
+				content: '\f00c';
+			}
 
 			form .message.failure {
 				color: #ff2361;
 			}
 
-				form .message.failure:before {
-					content: '\f119';
-				}
+			form .message.failure:before {
+				content: '\f119';
+			}
 
 	label {
 		color: #fff;
@@ -1105,6 +1111,7 @@
 		left: 4em;
 		opacity: 0.5;
 		position: absolute;
+		width: 90%;
 	}
 
 		#footer .icons {

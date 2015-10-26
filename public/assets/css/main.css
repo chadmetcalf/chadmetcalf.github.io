@@ -1048,6 +1048,9 @@
 			margin: 0 0 1em 0;
 		}
 
+		#header h1 {
+			letter-spacing: 0em;
+		}
 	}
 
 /* Signup Form */

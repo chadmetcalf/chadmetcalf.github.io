@@ -33,9 +33,13 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'images/bg03.jpg': 'center',
 							'images/bg02.jpg': 'center',
-							'images/bg01.jpg': 'center'
+							'images/bg06.jpeg': 'center',
+							'images/bg07.jpeg': 'center',
+							'images/bg03.jpg': 'center',
+							'images/bg08.jpeg': 'center',
+							'images/bg09.jpeg': 'center'
+							// 'images/bg01.jpg': 'center'
 							// 'images/bg04.jpg': 'right',
 							// 'images/bg05.jpg': 'center'
 						},

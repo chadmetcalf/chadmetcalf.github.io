@@ -548,6 +548,7 @@
     }
 
     img.icon {
+      margin-top: -5px;
       height: 38px;
       width: 38px;
     }
